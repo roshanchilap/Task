@@ -1,0 +1,28 @@
+1) List 5 difference between Browser JS(console) v Nodejs
+	1.Javascript is a programming language that is used for writing scripts on the website. VS NodeJS is a Javascript runtime 	environment.
+	2.Javascript can only be run in the browsers. VS NodeJS code can be run outside the browser.
+	3.It is basically used on the client-side. VS It is mostly used on the server-side.
+	4.Javascript is capable enough to add HTML and play with the DOM. VS Nodejs does not have capability to add HTML tags.
+	5.Javascript can run in any browser engine as like JS core in safari and Spidermonkey in Firefox. VS Nodejs can only run in V8 	engine of google chrome.
+	6.Javascript is used in frontend development.	VS Nodejs is used in server-side development.
+	7.Some of the javascript frameworks are RamdaJS, TypedJS, etc.	VS Some of the Nodejs modules are Lodash, express etc. These 	modules are to be imported from npm.
+
+
+2) Summary:
+	1) Browser is composed of bindings, platform, rendering part, and javascript VM. where bindings and platform parts of browser deal 	with os requirements and rendering part carry out works like parsing, layout, painting.
+	2) Parsing is the representation of HTML in DOM tree.HTML parsing involves tokenization and tree construction. HTML tokens include 	start and end tags, as well as attribute names and values. Parsing can continue when a CSS file is encountered, but <script> tags—	particularly those without an async or defer attribute—block rendering, and pauses parsing of HTML.
+	3) Render Tree- while parsing if a CSS file is encountered means then the render tree makes it as CSSOM tree to the element and 	combines both DOM and CSSOM to provide an actual representation on screen.
+	4) Layout computes where a node will be on the screen.
+	5) In Paint Section, it creates layers by an incremental process that builds up over 12 phases, then it produces a bitmap from each 	layer which is uploaded to the GPU as a texture. While combining all these textures by rendering we will get the output on the 		screen.	
+
+
+
+4) 	typeof(1)		-->	"number"
+        typeof(1.1)		-->	"number"
+        typeof('1.1')		-->	"string"
+        typeof(true)		-->	"boolean"
+        typeof(null)		-->	"object"
+        typeof(undefined)	-->	"undefined"
+        typeof([])		-->	"object"
+        typeof({})		-->	"object"
+        typeof(NaN)		-->	"number"
