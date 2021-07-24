@@ -1,0 +1,66 @@
+var resume = {
+    "basics": {
+      "name": "Roshan Chilap",
+      "label": "Survey Programmer",
+      "email": "chuilaproshan@gmail.com",
+      "phone": "7021280018",
+      "summary": "A summary of Roshan Chilap...",
+      "location": {
+        "address": "Plot no-02, flat no-A/202",
+        "postalCode": "410209",
+        "city": "Navi Mumbai",
+        "countryCode": "IN",
+        "region": "Maharashtra"
+      },
+      "profiles": [{
+        "network": "Twitter",
+        "username": "chilaproshan",
+        "url": "http://twitter.com/chilaproshan"
+      }]
+    },
+    "work": [{
+      "company": "Course5i",
+      "position": "Analyst",
+      "website": "https://course5i.com",
+      "startDate": "2019-07-01",
+      "endDate": "2021-07-01",
+      "highlights": [
+        "Started the company"
+      ]
+    }],
+    "education": [{
+      "institution": "Bharati Vidyapeeth College of Engineering",
+      "area": "Software Development",
+      "studyType": "Bachelor",
+      "startDate": "2015-07-23",
+      "endDate": "2019-05-25",
+      "gpa": "6.6",
+    }],
+    "skills": [{
+      "name": "Web Development",
+      "level": "Intermediate",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "Javascript",
+        "React JS",
+        "jQuery"
+      ]
+    }],
+    "languages": [{
+      "language": "English, Hindi, Marathi",
+      "fluency": "Native speaker"
+    }],
+    "hobbies": [{
+      "name": "Cricket, Carrom, Video Games",
+    }],
+  }
+  
+  
+  
+// Compare objects
+var obj1 = { name: "Person 1", age:5 };
+var obj2 = { name: "Person 1", age:5 };
+
+console.log(JSON.stringify(obj1)==JSON.stringify(obj2))
+// Output is True;
