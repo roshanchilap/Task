@@ -168,3 +168,17 @@ console.log(caps("I'm a little tea pot"));
 const arr = [1,2,3,4,5,6,7,8,9,10]
 const sum = arr.reduce((a, b) => a + b, 0)
 console.log(sum)
+
+//Prime numbers in an array using arrow function
+const titleCase = () => {
+    var numArray = [2, 3, 4, 5, 6, 7, 8, 9, 10]
+    numArray = numArray.filter((number) => {
+     for (var i = 2; i <= Math.sqrt(number); i++) {
+      if (number % i === 0) return false;
+     }
+     return true;
+});
+console.log(numArray)
+};
+
+titleCase()
